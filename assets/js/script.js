@@ -71,10 +71,10 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["A Business Data Analytics Professional "],
+    strings: ["A Business Data Analytics Professional"],
     loop: true,
     typeSpeed: 100,
-    backSpeed: 100,
+    backSpeed: 0,
     backDelay: 1000,
 });
 // <!-- typed js effect ends -->
