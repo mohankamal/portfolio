@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Vaishnavi";
+            document.title = "Portfolio | Mohan Kamal H";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Vaishnavi's Portfolio";
+            document.title = "Mohan Kamal's Portfolio";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
@@ -71,11 +71,9 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["A Data Professional"],
+    strings: ["A Business Data Analytics Professional"],
     loop: true,
     typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
 });
 // <!-- typed js effect ends -->
 
