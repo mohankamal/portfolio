@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["A Business Data Analyst Professional"],
+    strings: ["A Business Analytics Professional"],
     loop: false,
     typeSpeed: 100,
     backSpeed: 0,
